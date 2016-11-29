@@ -19,6 +19,9 @@ int main(int argc, char* argv[])
 {
     int a[] = {-2, 11, -4, 13, -5, -2};
     int b[] = {4, -3, 5, -2, -1, 2, 6, -2};
+    int c[] = {4, -3, 5, -2, -4, -1, 2, 6, -2, 10, -1};
+
     printf("%d\n", MaxSubSequenceSum(a, 6));
     printf("%d\n", MaxSubSequenceSum(b, 8));
+    printf("%d\n", MaxSubSequenceSum(c, 11));
 }
